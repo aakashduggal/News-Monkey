@@ -1,11 +1,16 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Navbar from './components/Navbar';
 
-function App() {
-  return (
-  <>
-  </>
-  );
+import React, {Component} from 'react'
+
+export default class App extends Component{
+  
+   render(){
+    return (
+      <>
+      <Navbar/>
+      </>
+    )
+   }
 }
-
-export default App;
