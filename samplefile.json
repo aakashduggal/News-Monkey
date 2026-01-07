@@ -1,0 +1,84 @@
+{
+    "status": "ok",
+    "totalResults": 6,
+    "articles": [
+        {
+            "source": {
+                "id": "news-com-au",
+                "name": "News.com.au"
+            },
+            "author": null,
+            "title": "Heartbreak over son’s ‘pure accident’ death",
+            "description": "The parents of a teenage cricketer who died after being struck by a ball during a training exercise have spoken publicly, revealing their extraordinary support for the teammate who threw the fatal ball.",
+            "url": "https://www.news.com.au/breaking-news/pure-accident-cricketer-ben-austins-parents-speak-publicly-about-sons-tragic-death/news-story/4569001943fb81807ffcf654a3cd628b",
+            "urlToImage": "https://content.api.news/v3/images/bin/f1d3a0f7549a8e9f708e7f6f9e6ae331",
+            "publishedAt": "2026-01-06T10:19:00Z",
+            "content": "The parents of a teenage cricketer who died after being struck by a ball during a training exercise have spoken publicly, revealing their extraordinary support for the teammate who threw the fatal ba… [+3011 chars]"
+        },
+        {
+            "source": {
+                "id": "abc-news-au",
+                "name": "ABC News (AU)"
+            },
+            "author": "Chris De Silva",
+            "title": "Stuart Clark denies confrontation with Cricket Australia chief Todd Greenberg over controversial comments",
+            "description": "Stuart Clark opens up on his conversation with Cricket Australia chief Todd Greenberg after his stinging criticism.",
+            "url": "https://www.abc.net.au/news/2026-01-06/cricket-stuart-clark-todd-greenberg-controversial-comments/106205010",
+            "urlToImage": "https://live-production.wcms.abc-cdn.net.au/7bb31c86908b5b5fbf7208ef4b458c31?impolicy=wcms_watermark_news&cropH=450&cropW=800&xPos=0&yPos=75&width=862&height=485&imformat=generic",
+            "publishedAt": "2026-01-06T09:50:37Z",
+            "content": "Former Australian Test paceman Stuart Clark has refused to engage in a \"war of words\" with Cricket Australia (CA) boss Todd Greenberg regarding his comments on national selector George Bailey and CA'… [+3105 chars]"
+        },
+        {
+            "source": {
+                "id": "news-com-au",
+                "name": "News.com.au"
+            },
+            "author": "Alex Blair",
+            "title": "Cricket stars snub ABC in nuclear boycott",
+            "description": "A rift has emerged between the ABC and Cricket Australia after former Test fast bowler and Cricket NSW board member Stuart Clark openly criticised the sporting authority’s bigwigs on-air.",
+            "url": "https://www.news.com.au/sport/cricket/cricket-australia-boycotts-abc-on-day-three-after-stuart-clark-comments/news-story/a68de3b61b58fd2a24b62860743d679d",
+            "urlToImage": "https://content.api.news/v3/images/bin/ec1aa6d10288067d96076b840f38552d",
+            "publishedAt": "2026-01-06T08:54:00Z",
+            "content": "A rift has emerged between the ABC and Cricket Australia after former Test fast bowler and Cricket NSW board member Stuart Clark openly criticised the sporting authority’s bigwigs on-air.\r\nClark was … [+5085 chars]"
+        },
+        {
+            "source": {
+                "id": "abc-news-au",
+                "name": "ABC News (AU)"
+            },
+            "author": "Mike Lorigan, Melissa Polimeni",
+            "title": "Ben Austin died in a cricketing tragedy. His parents Jace and Tracey blame no one as they speak out for the first time",
+            "description": "Ben Austin died after a cricket ball struck him in late October. For the first time his parents speak exclusively about the incident and their belief no one is to blame for the tragic accident.",
+            "url": "https://www.abc.net.au/news/2026-01-06/ben-austins-tragic-death-parents-jace-and-tracey-speak-out/106203078",
+            "urlToImage": "https://live-production.wcms.abc-cdn.net.au/cd5af69e1dc0ef9c60e8df65a7d8f30d?impolicy=wcms_watermark_news&cropH=2384&cropW=4238&xPos=1&yPos=0&width=862&height=485&imformat=generic",
+            "publishedAt": "2026-01-06T06:14:30Z",
+            "content": "Sitting on the boundary at his youngest son's cricket match, Jace Austin admits his relationship with the sport has changed.\r\n\"To say I watch it the same? No, definitely not,\" Jace said.\r\nIn late Oct… [+11140 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "PCB hands Umar Akmal three-year ban from all cricket | ESPNcricinfo.com",
+            "description": "Penalty after the batsman pleaded guilty to not reporting corrupt approaches | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/29103103/pcb-hands-umar-akmal-three-year-ban-all-cricket",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1099495_800x450.jpg",
+            "publishedAt": "2020-04-27T11:41:47Z",
+            "content": "Umar Akmal's troubled cricket career has hit its biggest roadblock yet, with the PCB handing him a ban from all representative cricket for three years after he pleaded guilty of failing to report det… [+1506 chars]"
+        },
+        {
+            "source": {
+                "id": "espn-cric-info",
+                "name": "ESPN Cric Info"
+            },
+            "author": null,
+            "title": "What we learned from watching the 1992 World Cup final in full again | ESPNcricinfo.com",
+            "description": "Wides, lbw calls, swing - plenty of things were different in white-ball cricket back then | ESPNcricinfo.com",
+            "url": "http://www.espncricinfo.com/story/_/id/28970907/learned-watching-1992-world-cup-final-full-again",
+            "urlToImage": "https://a4.espncdn.com/combiner/i?img=%2Fi%2Fcricket%2Fcricinfo%2F1219926_1296x729.jpg",
+            "publishedAt": "2020-03-30T15:26:05Z",
+            "content": "Last week, we at ESPNcricinfo did something we have been thinking of doing for eight years now: pretend-live ball-by-ball commentary for a classic cricket match. We knew the result, yes, but we tried… [+6823 chars]"
+        }
+    ]
+}
