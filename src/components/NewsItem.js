@@ -3,7 +3,7 @@ import download from './image/download.png'
 
 export class NewsItem extends Component {
     render() {
-        let {title, dispcription, imageUrl, url} = this.props
+        let {title, dispcription, imageUrl, url, author, publishedAt, source} = this.props
         return (
             <>
                 <div className="card" >
@@ -12,6 +12,8 @@ export class NewsItem extends Component {
                         <h5 className="card-title">{title}</h5>
                         <p className="card-text">{dispcription}</p>
                         <a href={url} rel="noreferrer" target="_blank" className="btn btn-sm btn-primary">Read More</a>
+                         <small class="text-body-secondary">By {author? author: 'Unknown'} on {new Date(publishedAt).toGMTString()}</small>
+                           <span class="position-absolute top-0 translate-middle badge rounded-pill bg-danger" style={{left: '90%', zIndex:'1'}}> {source}</span>
                     </div>
                 </div> 
             </>
