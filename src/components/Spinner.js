@@ -4,9 +4,9 @@ export class Spinner extends Component {
     render() {
         return (
             <>
-                <div class="text-center">
-                    <div class="spinner-border text-primary" role="status">
-                        <span class="sr-only"></span>
+                <div className="text-center">
+                    <div className="spinner-border text-primary" role="status">
+                        <span className="sr-only"></span>
                     </div>
                 </div>
             </>
