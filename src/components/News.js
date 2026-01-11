@@ -106,11 +106,20 @@ export class News extends Component {
                 const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=d44a33970c9149078263b4ed2e8be883&page=${this.state.page}&pageSize=${this.props.pageSize}`
                 let data = await fetch(url)
                 let parsedData = await data.json()
-                this.setState({
-                    articles: this.state.articles.concat(parsedData.articles || []),
-                    totalResults: parsedData.totalResults || 0,
-                    loading: false
-                });
+
+                if (!parsedData.articles || parsedData.articles.length === 0) {
+                    // Stop the spinner if no articles are returned
+                    this.setState({
+                        loading: false,
+                        totalResults: this.state.articles.length
+                    })
+                } else {
+                    this.setState({
+                        articles: this.state.articles.concat(parsedData.articles || []),
+                        totalResults: parsedData.totalResults || 0,
+                        loading: false
+                    });
+                }
             }
         );
     };
