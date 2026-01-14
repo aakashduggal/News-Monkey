@@ -98,7 +98,6 @@ const News = (props) => {
 
                         </div> */}
 
-
         </>
     )
 }
