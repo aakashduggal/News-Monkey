@@ -4,12 +4,13 @@ import Spinner from './Spinner'
 import PropTypes from 'prop-types';
 import InfiniteScroll from "react-infinite-scroll-component";
 
-// document.title = `${capitalized(category)} - NewsMonkey`
 
 const News = (props) => {
 
     useEffect(() => {
         update()
+        document.title = `${capitalized(props.category)} - NewsMonkey`
+
     }, [])
 
 
@@ -71,7 +72,7 @@ const News = (props) => {
 
     return (
         <>
-            <h2 className="text-center" style={{ margin: '25px 0px' }}>NewsMonkey-Top {capitalized(props.category)} Headlines</h2>
+            <h2 className="text-center" style={{ margin: '25px 0px', marginTop: '90px' }}>NewsMonkey-Top {capitalized(props.category)} Headlines</h2>
 
             {/* {state.loading && <Spinner />} */}
 
